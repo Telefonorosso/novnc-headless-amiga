@@ -33,7 +33,7 @@ nano Dockerfile
 ```
 ```
 FROM debian
-RUN apt-get -y update && export DEBIAN_FRONTEND=noninteractive && apt-get -y install procps net-tools xorg x11vnc fs-uae novnc
+RUN apt-get -y update && export DEBIAN_FRONTEND=noninteractive && apt-get -y install procps net-tools xorg xvfb x11vnc fs-uae novnc
 COPY files/ /
 RUN chmod +x /boot.sh
 CMD ["sh", "/boot.sh"]
