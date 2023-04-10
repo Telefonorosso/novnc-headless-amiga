@@ -6,9 +6,9 @@ x11vnc Copyright (C) 2002-2010 Karl J. Runge
 noVNC by Joel Martin
 
 ## PREREQUISITES
-Debian 11 on real hardware or virtual environment  
-A few CPU cores and some RAM  
-Amiga OS files and suitable ROM  
+- Debian 11 on real hardware or virtual environment  
+- A few CPU cores and some RAM  
+- Amiga OS files and suitable ROM  
 
 ## install Docker
 ```
