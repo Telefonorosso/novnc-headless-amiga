@@ -70,6 +70,22 @@ bsdsocket_library = 1
 mouse_integration = 1
 automatic_input_grab = 0
 ```
+
+## your folder should look like this:
+```
+novnc-headless-amiga/
+├── Dockerfile
+└── files
+    ├── AMI.ROM
+    ├── boot.sh
+    ├── HDD
+    │   ├── Utilities
+    │   ├── C
+    │   ├── Devs
+    │   ├── Prefs
+    │   └── blah...
+    └── OK.fs-uae
+```
 ## READY???
 ```
 docker build -t novnc-headless-amiga:1.0 .
