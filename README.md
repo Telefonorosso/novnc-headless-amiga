@@ -1,5 +1,6 @@
 # vnc-headless-amiga
-An emulated Amiga in your browser!! (no audio, sorry)
+An emulated Amiga in your browser!! (no audio, sorry)  
+Based on FS-UAE copyright © 2011-2022 Frode Solheim
 
 ## PREREQUISITES
 Debian 11 on real hardware or virtual environment  
