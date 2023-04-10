@@ -19,8 +19,8 @@ sh ./get-docker.sh
 ## create container!
 ```
 cd
-mkdir vnc-headless-amiga
-cd vnc-headless-amiga
+mkdir novnc-headless-amiga
+cd novnc-headless-amiga
 mkdir files
 cd files
 mkdir HDD
@@ -71,8 +71,8 @@ automatic_input_grab = 0
 ```
 ## READY???
 ```
-docker build -t vnc-headless-amiga:1.0 .
-docker run -it --privileged -p 8080:6080 vnc-headless-amiga:1.0
+docker build -t novnc-headless-amiga:1.0 .
+docker run -it --privileged -p 8080:6080 novnc-headless-amiga:1.0
 ```
 You can stop it by hitting CTRL+C
 
