@@ -2,13 +2,10 @@
 An emulated Amiga in your browser!! (no audio, sorry)
 
 ## PREREQUISITES
-Debian 11 on real hardware or virtual environment
-A few CPU cores and some RAM
-
-## STEPS!
+Debian 11 on real hardware or virtual environment  
+A few CPU cores and some RAM  
 
 ## install Docker
-
 ```
 su
 curl -fsSL https://get.docker.com -o get-docker.sh
@@ -70,9 +67,6 @@ automatic_input_grab = 0
 ## READY???
 ```
 docker build -t vnc-headless-amiga:1.0 .
-```
-[TAKES 70-80 seconds]
-```
 docker run -it --privileged -p 8080:6080 vnc-headless-amiga:1.0
 ```
 You can stop it by hitting CTRL+C
@@ -82,10 +76,7 @@ You can stop it by hitting CTRL+C
 [ASSUMING SERVER IS AT 192.168.1.10]
 
 http://192.168.1.10:8080/vnc_lite.html
-
-
+  
+   
 ![Cattura](https://user-images.githubusercontent.com/36540604/230849791-b8cc18f4-53d7-40fe-999a-203dc1360a6d.PNG)
-
-
-
 
