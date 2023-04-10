@@ -5,6 +5,7 @@ Based on FS-UAE copyright © 2011-2022 Frode Solheim
 ## PREREQUISITES
 Debian 11 on real hardware or virtual environment  
 A few CPU cores and some RAM  
+Amiga OS and suitable ROM  
 
 ## install Docker
 ```
